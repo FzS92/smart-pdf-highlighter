@@ -1,6 +1,7 @@
 # Smart PDF Highlighter
 
-Welcome to Smart PDF Highlighter! This tool automatically identifies and highlights important content within your PDF files. It utilizes many AI techniques such as deep learning and other advanced algorithms to analyze the text and intelligently select key sentences for highlighting.
+Welcome to Smart PDF Highlighter! This tool finds and highlights important parts in your PDFs all by itself. It uses smart AI methods like deep learning and fancy algorithms to pick out the most important sentences.
+
 
 ## Overview
 
