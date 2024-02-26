@@ -19,7 +19,7 @@ To use the Smart PDF Highlighter, follow these simple steps:
 
 1. **Clone the Repository:** Clone the repository to your local machine.
     ```python
-    git clone https://github.com/your-username/smart-pdf-highlighter.git
+    git clone https://github.com/FzS92/smart-pdf-highlighter.git
     cd smart-pdf-highlighter
     ```
 
