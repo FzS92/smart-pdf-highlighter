@@ -184,11 +184,11 @@ def split_text_into_sentences(text: str, min_words: int = MIN_WORDS) -> List[str
     sentences = []
     for s in text.split("."):
         s = s.strip()
-        # filtering out short sentences and sentences that contain more than 50% digits
+        # filtering out short sentences and sentences that contain more than 60% digits
         if (
             s
             and len(s.split()) >= min_words
-            and (sum(c.isdigit() for c in s) / len(s)) < 0.5
+            and (sum(c.isdigit() for c in s) / len(s)) < 0.4
         ):
             sentences.append(s)
     return sentences
