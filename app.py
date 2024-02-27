@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 
 def main():
     """Main function to run the PDF Highlighter tool."""
+    st.set_page_config(page_title="Smart PDF Highlighter", page_icon="./photos/icon.png")
     st.title("Smart PDF Highlighter")
     show_description()
 
