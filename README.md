@@ -2,7 +2,6 @@
 
 Welcome to Smart PDF Highlighter! This tool finds and highlights important parts in your PDFs all by itself. It uses smart AI methods like deep learning and fancy algorithms to pick out the most important sentences.
 
-
 ## Overview
 
 ![ScreenShot](./photos/app.png)
@@ -50,6 +49,11 @@ Follow these steps to run the Smart PDF Highlighter:
 
 4. **Download:** Download the highlighted PDF using the provided download button.
 
+## Online Version
 
+Additionally, an online version of Smart PDF Highlighter is available with the following modifications:
 
+1. **Langchain Encoding**: Utilizing langchain encoding (powered by OpenAI), employing the "text-embedding-3-small" model. This feature is currently free for users.
+2. **Backend Technology Change**: Instead of PyTorch, the online version operates using NumPy for efficiency, running on CPU on AWS service.
 
+You can access the online version [here](http://44.212.38.13:8501).
