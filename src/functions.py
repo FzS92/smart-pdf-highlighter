@@ -232,7 +232,7 @@ def generate_highlighted_pdf(
         graph = build_graph(similarity_matrix)
         ranked_sentences = rank_sentences(graph, sentences)
 
-        pagerank_threshold = int(len(ranked_sentences) * PAGERANK_THRESHOLD_RATIO)
+        pagerank_threshold = int(len(ranked_sentences) * PAGERANK_THRESHOLD_RATIO) + 1
         top_pagerank_sentences = [
             sentence[0] for sentence in ranked_sentences[:pagerank_threshold]
         ]
