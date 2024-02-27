@@ -170,7 +170,7 @@ def get_middle_sentence(cluster_indices: np.ndarray, sentences: List[str]) -> Li
     return middle_sentences
 
 
-def split_text_into_sentences(text: str, min_words: int = 10) -> List[str]:
+def split_text_into_sentences(text: str, min_words: int = MIN_WORDS) -> List[str]:
     """
     Split text into sentences.
 
