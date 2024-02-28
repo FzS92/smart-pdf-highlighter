@@ -49,6 +49,7 @@ Follow these steps to run the Smart PDF Highlighter:
 
 4. **Download:** Download the highlighted PDF using the provided download button.
 
+
 ## Online Version
 
 Additionally, an online version of Smart PDF Highlighter is available with the following modifications:
@@ -57,3 +58,10 @@ Additionally, an online version of Smart PDF Highlighter is available with the f
 2. **Backend Technology Change**: Instead of PyTorch, the online version operates using NumPy for efficiency, running on CPU on AWS service.
 
 You can access the online version <a href="http://44.212.38.13:8501" target="_blank">here</a>.
+
+
+## Example
+
+Before Highlighting             |  After Highlighting
+:-------------------------:|:-------------------------:
+![Before Highlighting](./photos/before.jpg)  |  ![After Highlighting](./photos/after.jpg)
