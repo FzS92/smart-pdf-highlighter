@@ -57,7 +57,7 @@ Additionally, an online version of Smart PDF Highlighter is available with the f
 1. **Langchain Encoding**: Utilizing langchain encoding (powered by OpenAI), employing the "text-embedding-3-small" model. This feature is currently free for users.
 2. **Backend Technology Change**: Instead of PyTorch, the online version operates using NumPy for efficiency, running on CPU on AWS service.
 
-You can access the online version here: http://18.234.149.78:8501/
+You can access the online version here: [http://18.234.149.78:8501/](http://18.234.111.142:8501) 
 (You may get warning from your browser since it does not have a domain + SSL).
 
 
